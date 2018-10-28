@@ -1,6 +1,18 @@
-# libgdf: GPU Dataframes
+# :warning: [ARCHIVED] libgdf: GPU Dataframes
 
-### :warning: Repo is frozen until 10/26 for refactoring to cuDF, no new issues or PRs :warning:
+## All development has moved to the cuDF repo effective October 28th 2018
+
+The contents of this repo and the README have been archived for reference. Future development for libgdf will take place in the `/libgdf` folder of the [cuDF](https://github.com/rapidsai/cudf) repo.
+
+### Outstanding PRs
+
+With the refactoring of moving all files to the folder `/libgdf` in this repo, updating to `master` should reduce the merge conflicts when trying to merge with `master` on cuDF. The entire commit history of libgdf has been merged into cuDF to also assist in this transition.
+
+### Outstanding Issues
+
+All issues will be copied and migrated to the cuDF repo.
+
+---
 
 [![Build Status](http://18.191.94.64/buildStatus/icon?job=libgdf-master)](http://18.191.94.64/job/libgdf-master/)
 
